@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>clock</title>
+	<div align="center">
+<h1 class="headerclass"> <font color="3366FF"> The Clock  </font></h1>
+</div>
+<script type="text/javascript" src="arithmetic.js"></script>
+<script type="text/javascript" src="clock.js"> </script>
+<link rel="stylesheet" type="text/css" href="styles.css">
+</head>
+
+<body onload="setInterval( 'updatesClock()',200);">
+        <!-- This is the container for our clock, it can be any HTML element. -->
+        <h1 align="center" id="clock"></h1>
+    </body>
+
+    <input type="number" placeholder="enter first number" id="number1"> </input>
+<input type="number" placeholder="enter second number" id="number2" > </input>
+<input type="submit" onclick="add();sub();mul();div()"> 
+<p id="result1"></p>
+<p id="result2"></p>
+<p id="result3"></p>
+<p id="result4"></p>
+
+</html>
